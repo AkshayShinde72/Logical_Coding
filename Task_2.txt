@@ -1,0 +1,26 @@
+//Accept three no and find out the highest  no.
+
+package task;
+import java.util.*;
+
+public class task_2 {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.print("Enter three Numbers");
+		int a=Sc.nextInt();
+		int b=Sc.nextInt();
+		int c=Sc.nextInt();
+		
+		
+		if(a>b && a>c)
+			System.out.println("Greater number is "+a);
+		else if(b>c && b>a)
+			System.out.println("Greater number is "+b);
+		else
+			System.out.println("Greater number is "+c);
+			
+
+	}
+
+}
