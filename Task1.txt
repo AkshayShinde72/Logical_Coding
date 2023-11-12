@@ -1,0 +1,31 @@
+//.1 Write a program to accept two numbers. Calculate and print sum, difference, product and 
+//division.
+
+package task;
+import java.util.*;
+
+public class test_1 {
+
+	public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.print("Enter a first number");
+      int no1=sc.nextInt();
+      System.out.print("Enter a second number");
+      int no2=sc.nextInt();
+      
+      int sum=no1+no2;
+      int diff=no1-no2;
+      int prod=no1*no2;
+      int div=no1/no2;
+      
+      
+      System.out.println("Sum is"+sum);
+      System.out.println("differnce is"+diff);
+      System.out.println("prod is"+prod);
+      System.out.println("div is"+div);
+      
+      
+
+	}
+
+}
