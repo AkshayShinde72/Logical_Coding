@@ -1,0 +1,25 @@
+//Accept a year from user check if it is leap year or not
+package task;
+import java.util.*;
+
+public class task_3 {
+
+public static void main(String[] args) {
+Scanner Sc=new Scanner(System.in);
+System.out.print("Enter year");
+int year=Sc.nextInt();
+if(year%100==0)
+{
+if(year%400==0)
+System.out.print("This is a leap year");
+else
+System.out.print("This is a no leap year");
+}
+else {
+if(year%4==0)
+System.out.print("This is a leap year");
+else
+System.out.print("This is a no leap year");
+}
+}
+}
