@@ -1,0 +1,22 @@
+//Accept a character from user and reverse the case eg. Input a out put A
+
+package task;
+import java.util.*;
+
+
+public class task_4 {
+public static void main(String[] args) {
+char b;
+Scanner Sc=new Scanner(System.in);
+System.out.print("Enter a character");
+char a=Sc.next().charAt(0);
+if(a>='a' && a<='z')
+{
+b=(char)(a-32);
+System.out.println(b);
+}
+else
+System.out.println("Entered value is invalid")
+}
+
+}
