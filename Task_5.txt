@@ -1,0 +1,28 @@
+//Accept a character from user and check if it is vowel or not
+package task;
+import java.util.*;
+
+public class task_5{
+
+	public static void main(String[] args) {
+		char a;
+		Scanner sc= new Scanner(System.in);
+		System.out.print("Enter a character");
+		a=sc.next().charAt(0);
+		
+		
+		if((a>='A' && a<='Z')||(a>='a' && a<='z'))
+		{
+		if(a=='A'||a=='a'||a=='i'||a=='I'||a=='E'||a=='e'||a=='O'||a=='o'||a=='U'||a=='U')
+			System.out.println("Entered caracter is vowel");
+			
+			else
+				System.out.println("Entered character is consonent");
+		}
+		else
+		System.out.println("Entered character is not valid");
+
+	}
+
+}
+
