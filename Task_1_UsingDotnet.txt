@@ -1,0 +1,46 @@
+/*
+      1
+     1 2
+    1 2 3
+   1 2 3 4
+  1 2 3 4 5
+  5 4 3 2 1
+   5 4 3 2
+    5 4 3
+     5 4
+      5
+ */
+
+
+namespace Pattern
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 1; i <= 5; i++)
+            {
+                for(int s=i;s<=5; s++)
+                Console.Write(" ");
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write(" "+j);
+                }
+                Console.WriteLine();
+            } 
+
+            for(int k=1;k <= 5; k++)
+            {
+                for(int p=0;p<k;p++)
+                 Console.Write(" ");
+                for (int m=5;m>= k; m--)
+                { Console.Write(" "+m); }
+                Console.WriteLine();
+            }
+           Console.ReadLine();
+
+        }
+
+        
+    }
+}
