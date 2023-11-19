@@ -1,0 +1,29 @@
+/*Accept a marks from user and print it’s grade
+Mks>=75  grade A
+Mks>=55 grade B
+Mks>=35 grade c
+Else fail*/
+
+
+package task;
+import java.util.*;
+
+public class task_6 {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.print("Enter a marks");
+		int mks=Sc.nextInt();
+		
+		if(mks>=75 && mks<=100)
+			System.out.print("Grade A");
+		else if(mks>=55 && mks<=74)
+			System.out.print("Grade B");
+		else if(mks>=35 && mks<=54)
+			System.out.print("Grade C");
+		else
+			System.out.print("fail");
+
+	}
+
+}
