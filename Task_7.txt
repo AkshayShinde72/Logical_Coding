@@ -1,0 +1,23 @@
+/+ACo-Accept a number from user - if it is divisible by 3 print +AJM-three+AJQ- ,
+if it is divisible by 7 print +AJM-seven+AJQ- 
+and if it is divisible by both(3,7) print +AJM-three -seven+AJQAKg-/
+
+package task+ADs-
+import java.util.+ACoAOw-
+
+public class task+AF8-7 +AHs-
+
+public static void main(String+AFsAXQ- args) +AHs-
+Scanner Sc+AD0-new Scanner(System.in)+ADs-
+System.out.print(+ACI-Enter a number+ACI-)+ADs-
+int no+AD0-Sc.nextInt()+ADs-
+if(no+ACU-3+AD0APQ-0 +ACYAJg- no+ACU-7+AD0APQ-0)
+System.out.println(+ACI-three -seven+ACI-)+ADs-
+else if(no+ACU-3+AD0APQ-0)
+System.out.println(+ACI-Three+ACI-)+ADs-
+else if(no+ACU-7+AD0APQ-0)
+System.out.println(+ACI-Seven+ACI-)+ADs-
+
++AH0-
+
++AH0-
