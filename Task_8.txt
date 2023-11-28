@@ -1,0 +1,43 @@
+/*An electric power distribution co. charges its domestic consumers as follows
+follows: consumption units
+0-200			            0.50 perunit
+201-400			100+0.65 pu.excess of 200
+401-600			230+0.80pu.excess of 400
+601 and above	390+1.00pu in excess of 600
+*/
+
+package task;
+import java.util.*;
+public class task_8 {
+	public static void main(String[] args) {
+		float bill;
+		Scanner Sc=new Scanner(System.in);
+		System.out.print("Enter unit");
+		int unit=Sc.nextInt();
+		if(unit>=0 && unit<=200)
+			{bill=(float)(unit*0.50f);
+			System.out.print("The bill amount is"+bill);
+			}
+		else if(unit>=201 && unit<=400) 
+		{
+			bill=(float)(100+(unit-200)*0.65);
+			System.out.print("The bill amount is"+bill);
+				
+		}
+		else if(unit>=401 && unit<=600) 
+		{
+			bill=(float)(230+(unit-400)*0.80);
+			System.out.print("The bill amount is"+bill);
+				
+		}
+		else 
+		{
+			bill=(float)(390+(unit-600)*1);
+			System.out.print("The bill amount is"+bill);
+				
+		}
+			
+		
+	}
+
+}
