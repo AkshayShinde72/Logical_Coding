@@ -1,0 +1,26 @@
+//Accept a number from user and print a table of that number
+
+package task;
+import java.util.*;
+public class task_21 {
+
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		System.out.print("Enter a number");
+		int a=Sc.nextInt();
+		table(a);
+	
+	}
+	public static void table(int x) {
+		int i,no;
+		for(i=1;i<=10;i++)
+		{
+			no=i*x;
+			
+			System.out.println(x+"*"+i+"="+no);
+		}
+	
+	}
+	
+
+}
